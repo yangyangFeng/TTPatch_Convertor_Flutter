@@ -1,13 +1,13 @@
 let global = this;
 //2020年04月21日10:23:42
 
-var ObjCLexer = require('./parser/ObjCLexer').ObjCLexer
-var ObjCParser = require('./parser/ObjCParser').ObjCParser
-var JPObjCListener = require('./JPObjCListener').JPObjCListener
-var JPErrorListener = require('./JPErrorListener').JPErrorListener
+var ObjCLexer = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/parser/ObjCLexer').ObjCLexer
+var ObjCParser = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/parser/ObjCParser').ObjCParser
+var JPObjCListener = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/JPObjCListener').JPObjCListener
+var JPErrorListener = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/JPErrorListener').JPErrorListener
 var JPScriptProcessor = require('./JPScriptProcessor').JPScriptProcessor
-var antlr4 = require('./parser/antlr4/index');
-var beautify = require('./lib/beautify').js_beautify
+var antlr4 = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/parser/antlr4/index');
+var beautify = require('https://yangyangfeng.github.io/TTPatch_Convertor_Flutter/js/lib/beautify').js_beautify
 
 var convertor = function(script, cb) {
     var ignoreClass = 0, ignoreMethod = 0;

@@ -1,5 +1,5 @@
 let global = this;
-(function(){
+//2020年04月21日10:25:39
 var antlr4 = require('./parser/antlr4/index');
 var ObjCLexer = require('./parser/ObjCLexer').ObjCLexer
 var ObjCParser = require('./parser/ObjCParser').ObjCParser
@@ -52,4 +52,4 @@ var convertor = function(script, cb) {
 // INFO Exporting require to global scope
 
 
-})();
+

@@ -1,11 +1,12 @@
 let global = this;
 //2020年04月21日10:23:42
-var antlr4 = require('./parser/antlr4/index');
+
 var ObjCLexer = require('./parser/ObjCLexer').ObjCLexer
 var ObjCParser = require('./parser/ObjCParser').ObjCParser
 var JPObjCListener = require('./JPObjCListener').JPObjCListener
 var JPErrorListener = require('./JPErrorListener').JPErrorListener
 var JPScriptProcessor = require('./JPScriptProcessor').JPScriptProcessor
+var antlr4 = require('./parser/antlr4/index');
 var beautify = require('./lib/beautify').js_beautify
 
 var convertor = function(script, cb) {
